@@ -3,10 +3,8 @@ from random import *
 print("Welcome to the number guessing game!")
 
 def is_valid(s, max_value):
-    if s.isdigit() and 1 <= int(s) <= max_value:
-        return True
-    else:
-        return False
+    return s.isdigit() and 1 <= int(s) <= max_value
+         
 
 def guess_game():
     print("Please enter the maximum number to guess")
@@ -42,9 +40,7 @@ def game_continue():
             guess_game()
         elif answer == "no":
             print("Thanks for playing the number guessing game. See you later...")
-            break
-        else:
-            print("yes or no?")            
+            break                  
 
 guess_game()
 game_continue()    
