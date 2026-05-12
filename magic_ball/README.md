@@ -1,6 +1,6 @@
-\# Number Guessing Game
+\# Magic Ball Game
 
-A simple CLI game where the computer picks a random number and the player guesses it.
+A simple CLI game where the computer picks a random answer to the player's question.
 
 
 
@@ -18,7 +18,7 @@ A simple CLI game where the computer picks a random number and the player guesse
 
 \- Functions (`def`)
 
-\- `random.randint()`
+\- `random.sample()`
 
 \- `while` loop with `break`
 
@@ -32,5 +32,5 @@ A simple CLI game where the computer picks a random number and the player guesse
 
 ```bash
 
-python guess_number.py
+python magic_ball.py
 
