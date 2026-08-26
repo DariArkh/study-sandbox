@@ -1,6 +1,9 @@
 print("Привет, это генератор паролей!")
 length = int(input("Какой длины нужен пароль? "))
 
+letters = "abcdefghijklmnopqrstuvwxyz" + "abcdefghijklmnopqrstuvwxyz".upper()
+digits = "0123456789"
+punctuation = "!@#$%&*//+"
 
 def is_valid(l):   #проверка длины пароля
     if l < 8:
@@ -22,16 +25,16 @@ def is_strong(passw):   #проверка соответствия пароля 
     flag3 = False
     flag4 = False
     for c in passw:
-        if c in "0123456789":
+        if c.isdigit():
             flag1 = True
-    for c in passw:
-        if c in "abcdefghijklmnopqrstuvwxyz":
+    
+        if c.islower():
             flag2 = True
-    for c in passw:
-        if c in "abcdefghijklmnopqrstuvwxyz".upper():
+    
+        if c.isupper():
             flag3 = True
-    for c in passw:
-        if c in "!@#$%&*()//":
+    
+        if c in punctuation:
             flag4 = True
     if flag1 and flag2 and flag3 and flag4:
         return True
@@ -39,9 +42,6 @@ def is_strong(passw):   #проверка соответствия пароля 
         return False 
 
 def password_generator():    #генератор паролей
-    letters = "abcdefghijklmnopqrstuvwxyz" + "abcdefghijklmnopqrstuvwxyz".upper()
-    digits = "0123456789"
-    punctuation = "!@#$%&*()//"
     passw = "".join(random.choice(letters + digits + punctuation) for _ in range(length))
     return passw
 
