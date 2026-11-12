@@ -28,7 +28,7 @@ A simple CLI game where the computer picks a random answer to the player's quest
 
 
 
-\## How to run
+## How to run
 
 ```bash
 
