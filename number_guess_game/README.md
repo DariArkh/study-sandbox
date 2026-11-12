@@ -1,34 +1,34 @@
-\# Number Guessing Game
+# Number Guessing Game
 
 A simple CLI game where the computer picks a random number and the player guesses it.
 
 
 
-\##Language
+## Language
 
 
 
-\- Python
+- Python
 
 
 
-\## Skills
+## Skills
 
 
 
-\- Functions (`def`)
+- Functions (`def`)
 
-\- `random.randint()`
+- `random.randint()`
 
-\- `while` loop with `break`
+- `while` loop with `break`
 
-\- conditional statements (`if/elif/else`)
+- conditional statements (`if/elif/else`)
 
-\- user input handling
+- user input handling
 
 
 
-\## How to run
+## How to run
 
 ```bash
 
