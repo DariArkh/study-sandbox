@@ -1,30 +1,30 @@
-\# Magic Ball Game
+# Magic Ball Game
 
 A simple CLI game where the computer picks a random answer to the player's question.
 
 
 
-\##Language
+## Language
 
 
 
-\- Python
+- Python
 
 
 
-\## Skills
+## Skills
 
 
 
-\- Functions (`def`)
+- Functions (`def`)
 
-\- `random.sample()`
+- `random.sample()`
 
-\- `while` loop with `break`
+- `while` loop with `break`
 
-\- conditional statements (`if/elif/else`)
+- conditional statements (`if/elif/else`)
 
-\- user input handling
+- user input handling
 
 
 
