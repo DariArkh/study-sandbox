@@ -40,8 +40,13 @@ and interface language:
 
 ```bash
 python caesar_eng.py
+```
+
 or
+
+```
 python caesar_ru.py
+```
 
 ## Example
 
