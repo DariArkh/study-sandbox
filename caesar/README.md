@@ -51,12 +51,21 @@ python caesar_ru.py
 ## Example
 
 Welcome to Cesar encryptor
+
 Do you want to encrypt or decrypt the text? Answer e for encryption or d for decryption
+
 e
+
 Write the shift
+
 5
+
 Input your text
+
 Hello
+
 What the direction of the encryption? Type f for forward or b for back direction
+
 f
+
 Mjqqt
