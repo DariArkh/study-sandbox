@@ -69,3 +69,30 @@ What the direction of the encryption? Type f for forward or b for back direction
 f
 
 Mjqqt
+
+
+## Brute-force decryptors
+
+Two additional scripts help decrypt text when the shift is unknown:
+
+- `caesar_bruteforce_eng.py` — English alphabet
+- `caesar_bruteforce_ru.py` — Russian alphabet
+
+Instead of asking for a shift, they try **all possible shifts** and print
+a numbered list of results: each line contains the shift value and the
+decrypted string. The user reads the list and picks the meaningful line.
+
+### How to run
+
+```bash
+python caesar_bruteforce_eng.py
+```
+or
+
+```
+bash
+python caesar_bruteforce_ru.py
+```
+
+The user scans the output and selects the readable line.
+
